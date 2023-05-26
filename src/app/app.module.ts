@@ -6,10 +6,12 @@ import { CardsComponent } from './cards/cards.component';
 
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { TruncatePipe } from './truncate.pipe';
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
-      CardsComponent
+      CardsComponent,
+      TruncatePipe
    ],
   imports: [
     BrowserModule,
