@@ -1,0 +1,11 @@
+.example-card {
+    max-width: 350px;
+    background-color: plum;
+    border-radius: 20px;
+  }
+  
+  .example-header-image {
+    background-image: url('../../assets/mae-mu-Rz5o0osnN6Q-unsplash.jpg');
+    background-size: cover;
+  }
+  
